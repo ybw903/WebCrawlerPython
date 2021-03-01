@@ -3,7 +3,7 @@ import requests
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 
-url = 'https://nx0084.tistory.com'
+url = ''
 html = requests.get(url).text
 
 soup =BeautifulSoup(html,'html.parser')
